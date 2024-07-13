@@ -1,0 +1,25 @@
+@media (max-width: 1200px) { 
+}
+@media (max-width: 768px) {
+    .section { 
+        display: block !important;
+    }
+    .navigation-large_screen { 
+        display: none;
+    }
+    .top-header-information_block { 
+        display: none;
+    }
+    .container-logo-phone_screen { 
+        z-index: 9999;
+        display: flex;
+    }
+    header { 
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    ul li a:hover{ 
+        color: rgb(255, 177, 61);
+    }
+}
