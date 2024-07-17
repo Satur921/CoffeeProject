@@ -1,0 +1,130 @@
+@font-face { 
+    font-family: "gogono-cocoa";
+    src: url("../Fonts/gogono-cocoa-mochi-cyrillic.otf");
+    font-style: normal;
+}
+* { 
+    font-family: "gogono-cocoa";
+}
+body { 
+    overflow-x: hidden;
+    background-color: rgb(83, 189, 255) !important;
+}
+/* section one */
+.hello_block { 
+    margin-bottom: 30%;
+}
+.wrapper-hello_block { 
+    color: white;
+    display: grid;
+    justify-content: center;
+    margin-top: 8% !important;
+}
+.wrapper-hello_block h2{ 
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+} 
+.wrapper-hello_block h2 span{ 
+    margin-left: -8px;
+    color: #ff2828;
+} 
+.wrapper-hello_block h1{ 
+    margin-top: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: min(12vw, 100px);
+    color: #ffa928;
+    text-shadow: 3px 0 2px #ffffff, 
+                 0 3px 2px #ffffff, 
+                -3px 0 2px #ffffff, 
+                 0 -3px 2px #ffffff;
+    margin-bottom: 0px;
+}
+.wrapper-image_block img{ 
+    max-width: 100%;
+}
+/* section two */
+.information_block {
+    width: 100vw;
+    background-color: white;
+}
+.wrapper-cities_block span{ 
+    color: #a52a2a;
+    margin-left: 20%;
+}
+.container .wrapper-cities_block div { 
+    margin-top: 15%;
+} 
+.wrapper-cities_block { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: min(10vw,64px);
+    color: rgb(0, 41, 63);
+}
+.wrapper-cities_block div h3,
+.wrapper-cities_block div h3 span { 
+    font-size: min(10vw, 58px);
+    font-style: oblique;
+} 
+.wrapper-cities_block div h3 span{ 
+    margin-left: -2%;
+    color: #a67857;
+}
+#eatSpan { 
+    color: rgb(255, 169, 40);
+}
+.carousel { 
+    margin-top: 5%;
+    padding-bottom: 15%;
+}
+.carousel-inner { 
+    border-radius: 15px;
+}  
+/* section three */
+.buttons_block { 
+    background-color: #00acff;
+    width: 100vw;
+    padding-top: 1%;
+    padding-bottom: 12%;
+}
+.wrapper-menu-button_block,
+.wrapper-reviews-button_block { 
+    margin-top: 15%;
+    background-color: #009eed;
+    border-radius: 10px;
+    padding-top: 10vw;
+    box-shadow: 0px 0px 10px 3px white;
+}
+.text-container { 
+    color: white;
+}
+.text-container h2{ 
+    font-size: min(7vw, 64px);
+    margin-bottom: 20px;
+}
+.text-container h4{ 
+    font-size: min(4.3vw, 48px);
+    margin-bottom: 20px;
+}
+.text-container span,
+.text-reviews span{ 
+    color: rgb(255, 169, 40);
+} 
+.text-container h2 span,
+.text-reviews h2 span{ 
+    color: #ef343a;
+} 
+.text-reviews { 
+    color: white;
+}
+.text-reviews h2 { 
+    font-size: min(5vw, 52px);
+    margin-bottom: 20px;
+}
+.text-reviews h4{ 
+    font-size: min(4.5vw, 48px);
+    margin-bottom: 20px;
+}

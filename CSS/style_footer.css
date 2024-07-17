@@ -1,0 +1,34 @@
+@font-face { 
+    font-family: "crooker";
+    src: url("../Fonts/crooker.otf");
+    font-style: normal;
+}
+footer { 
+    padding-top: 30px;
+    height: 500px;
+    width: 100vw;
+    background-color: rgb(66, 145, 194);
+    color: white;
+}
+.footer-btns { 
+    margin-bottom: 16px;
+}
+footer a { 
+    font-family: "crooker";
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    color: rgba(255, 255, 255, 0.8);
+}
+footer h6{ 
+    font-family: "crooker";
+}
+.footer-btns div a { 
+    padding: 5px;
+}
+#container-footer{ 
+    height: 27px;
+}
+#container-footer-top { 
+    margin-top: min(38vw, 225px);
+}
