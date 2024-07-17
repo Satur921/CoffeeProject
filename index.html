@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/scroll-bar.css">
+    <link rel="stylesheet" href="CSS/style_header.css">
+    <link rel="stylesheet" href="CSS/style_footer.css">
+    <link rel="stylesheet" href="CSS/style_index.css">
+    <link rel="stylesheet" href="CSS/media.css">
+    <link rel="stylesheet" href="burger-bar/burger-bar.css">
+    <link rel="stylesheet" href="CSS/blob-menu_btn.css">
+    <link rel="stylesheet" href="CSS/blob-reviews_btn.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Coffee Antarctica</title>
+</head>
+
+<body class="body">
+    <section class="top-header-information_block">
+        <div class="container-information_block">
+            <ul class="header_block">
+                <li><a href="#">Работа в антарктике</a></li>
+                <li><a href="#">Оставить отзыв</a></li>
+                <li><a href="tel:+71244141241">+7 124 414 12 41</a></li>
+            </ul>
+        </div>
+    </section>
+    <header class="sticky-top">
+        <nav class="navigation-large_screen">
+            <ul>
+                <li><a href="#">Меню</a></li>
+                <li><a href="#">Доставка</a></li>
+                <div class="container-logo">
+                    <a href="index.html"><img src="Image/Logo/LogoSVG.svg" id="Logo" alt="LogoImage" width="50px"></a>
+                </div>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="container-logo-phone_screen">
+            <a href="index.html"><img src="Image/Logo/LogoSVG.svg" id="Logo" alt="LogoImage" width="50px"></a>
+        </div>
+        <div class="section">
+            <a href="#" onclick="return false" class="menu-btn">
+                <span></span>
+            </a>
+            <div class="menu-block">
+                <nav class="menu-nav menu">
+                    <a class="menu-nav__link" href="#">Меню</a>
+                    <a class="menu-nav__link" href="#">Доставка</a>
+                    <a class="menu-nav__link" href="#">О нас</a>
+                    <a class="menu-nav__link" href="#">Контакты</a>
+                </nav>
+            </div>
+        </div>
+        <div class="hidden-block"></div>
+    </header>
+    <section class="hello_block">
+        <div class="container">
+            <div class="wrapper-hello_block row">
+                <div class="col-xl-6 col-lg-7 col-md-9">
+                    <h1>Антарктика</h1>
+                    <h2>Здесь вам всегда&nbsp;<span>рады</span>!</h2>
+                </div>
+                <div class="col-xl-6 col-lg-7 col-md-9">
+                    <div class="wrapper-image_block">
+                        <img src="Image/Content/cupCoffeeIndex.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="information_block">
+        <div class="container">
+            <div class="wrapper-cities_block row">
+                <div class="col-xl-6 col-lg-7 col-md-9">
+                    <ul>
+                        <span>Найди нас</span>
+                        <li>Москва</li>
+                        <li>Санкт-Петербург</li>
+                        <li>Екатеринбург</li>
+                        <li>Томск</li>
+                    </ul>
+                </div>
+                <div class="col-xl-6 col-lg-7 col-md-9">
+                    <h3 class="text-center"><q>хороший&nbsp;<span>кофе</span> и вкусная&nbsp;<span
+                                id="eatSpan">еда</span> согреют душу в самый дождливый день</q></h3>
+                </div>
+            </div>
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4500">
+                        <img src="Image/Slider/1.png" class="d-flex w-100" alt="Лучший кофе тот, что ближе">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4500">
+                        <img src="Image/Slider/2.png" class="d-flex w-100" alt="Новым покупателям скидка">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="buttons_block">
+        <div class="container">
+            <div class="wrapper-menu-button_block">
+                <div class="text-container text-center">
+                    <h2>Посмотрите наше <span>меню</span></h2>
+                    <h4>Возможно вы что нибудь найдете для <span>себя</span></h4>
+                </div>
+                <div class="buttons">
+                    <button class="blob-btn">
+                        <a href="">Посмотреть меню</a>
+                        <span class="blob-btn__inner">
+                            <span class="blob-btn__blobs">
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                                <span class="blob-btn__blob"></span>
+                            </span>
+                        </span>
+                    </button>
+                    <br />
+                    <svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <defs>
+                            <filter id="goo">
+                                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                                <feColorMatrix in="blur" mode="matrix"
+                                    values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                                <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                            </filter>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+            <div class="wrapper-reviews-button_block">
+                <div class="text-reviews text-center">
+                    <h2>Посмотрите, что говорят о нас наши <span>посетители</span></h2>
+                    <h4>Возможно мы с вами станем <span>друзьями</span></h4>
+                </div>
+                <div class="buttons">
+                    <button class="blob-reviews_btn">
+                        <a href="">Посмотреть отзывы</a>
+                        <span class="blob-btn__inner">
+                            <span class="blob-btn__blobs">
+                                <span class="blob-reviews_btn__blob"></span>
+                                <span class="blob-reviews_btn__blob"></span>
+                                <span class="blob-reviews_btn__blob"></span>
+                                <span class="blob-reviews_btn__blob"></span>
+                            </span>
+                        </span>
+                    </button>
+                    <br />
+                    <svg id="svg" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <defs>
+                            <filter id="goo">
+                                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                                <feColorMatrix in="blur" mode="matrix"
+                                    values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                                <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                            </filter>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col footer-btns">
+                    <div id="container-footer"></div>
+                    <a href="#">Работа в антарктике</a><br>
+                    <a href="#">Оставить отзыв</a>
+                </div>
+                <div class="col footer-btns">
+                    <h6 id="connection-title">Связь с нами</h6>
+                    <div>
+                        <a href="https://m.vk.com/"><img src="Image/Ico/footer-icons/vk.png" width="45px" alt="vk"></a>
+                        <a href="https://web.telegram.org/"><img src="Image/Ico/footer-icons/tg.png" width="45px" alt="tg"></a>
+                        <a href="https://www.instagram.com/"><img src="Image/Ico/footer-icons/inst.png" width="45px"
+                                alt="inst"></a>
+                    </div><br>
+                    <a href="tel:+71244141241">+7 124 414 12 41</a><br>
+                    <a href="mailto:antarctica@mail.ru">antarctica@mail.ru</a>
+                </div>
+                <hr id="container-footer-top">
+                <div class="col">
+                    <h6>Кофейня «Антарктика» © 2024. Все права защищены.</h6>
+                </div>
+                <div class="col">
+                    <a href="#">Политика конфиденциальность</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="JS/logo-anim.js"></script>
+    <script src="burger-bar/burger-bar.js"></script>
+</body>
+
+</html>
